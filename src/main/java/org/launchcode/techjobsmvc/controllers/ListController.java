@@ -28,6 +28,7 @@ public class ListController {
         columnChoices.put("positionType", "Position Type");
         columnChoices.put("coreCompetency", "Skill");
 
+//        tableChoices.put("all", "View All");  - Attempting to do the first option of ToDo2 (Didn't work as well as the 2nd option)
         tableChoices.put("employer", JobData.getAllEmployers());
         tableChoices.put("location", JobData.getAllLocations());
         tableChoices.put("positionType", JobData.getAllPositionTypes());
